@@ -154,13 +154,6 @@ const TableUsuarios = () => {
                     value={terminosBusqueda} onChange={(e) => setTerminosBusqueda(e.target.value)}
                   />
                 </div>
-                <button
-                  onClick={() => setIsModalOpen(true)}
-                  type="button"
-                  className="w-24 bg-gradient-to-r from-cyan-400 to-cyan-600 hover:from-cyan-500 hover:to-cyan-700 text-white py-2 rounded-lg mx-auto block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 mb-2"
-                >
-                  Nuevo
-                </button>
               </form>
             </div>
           </div>

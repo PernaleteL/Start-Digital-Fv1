@@ -270,7 +270,7 @@ function borrarTexto() {
       </div>
 
       <div className=''>
-        <div className="max-w-lg md:max-w-none">
+        <div className="max-w-lg md:max-w-none mb-60 md:mb-0">
         <h3 className="text-indigo-600 font-semibold">
     Servicios de Community Management
 </h3>
@@ -352,16 +352,23 @@ function borrarTexto() {
     </div>
 
     <section className="w-full text-white py-6" style={{ background: "#011240" }}>
-           <div>
-            <h2 className="h2-intro mt-8">Start Digital al Día</h2>
-            <div className='flex justify-center'>
-            <p className='p-intro text-justify'>
-              <span className='text-white'>Te invitamos a explorar nuestra sección de noticias, donde encontrarás información relevante.</span> <span>
-                <Link to="/noticias" className="mt-4 inline-block text-blue-600 hover:underline">Ver todas las noticias</Link>
-              </span>
-            </p>
-            </div>
-          </div>
+          <div className="px-4 sm:px-6 lg:px-8">
+  <h2 className="h2-intro mt-8 text-center">Start Digital al Día</h2>
+  
+  <div className="flex justify-center">
+    <p className="p-intro text-justify max-w-prose text-sm sm:text-base">
+      <span className="text-white">
+        Te invitamos a explorar nuestra sección de noticias, donde encontrarás información relevante.
+      </span>
+      <span>
+        <Link to="/noticias" className="mt-4 inline-block text-blue-600 hover:underline">
+          Ver todas las noticias
+        </Link>
+      </span>
+    </p>
+  </div>
+</div>
+
           <div className='div-cont-4 mb-4'>
             <section className='section sec-4'>
               {noticia.map((egresado) => (
@@ -534,18 +541,25 @@ Reserva tu sesión hoy
 </section>
 
 <section className="w-full  py-6" style={{minHeight:'500px'}} >
-           <div>
-           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl text-center mt-12">
-   Nuestros Eventos
-</h3>
-            <div className='flex justify-center'>
-            <p className='p-intro text-justify'>
-              <span className=''>Te invitamos a explorar nuestra sección de eventos, donde encontrarás información relevante.</span> <span>
-                <Link to="/noticias" className="mt-4 inline-block text-blue-600 hover:underline">Ver todos los eventos</Link>
-              </span>
-            </p>
-            </div>
-          </div>
+          <div className="px-4 sm:px-6 lg:px-8">
+  <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl text-center mt-12">
+    Nuestros Eventos
+  </h3>
+
+  <div className="flex justify-center">
+    <p className="p-intro text-justify max-w-prose text-sm sm:text-base">
+      <span>
+        Te invitamos a explorar nuestra sección de eventos, donde encontrarás información relevante.
+      </span>
+      <span>
+        <Link to="/noticias" className="mt-4 inline-block text-blue-600 hover:underline">
+          Ver todos los eventos
+        </Link>
+      </span>
+    </p>
+  </div>
+</div>
+
           <div className='div-cont-4 mb-4'>
             <section className='section sec-4'>
               {eventos.map((egresado) => (
