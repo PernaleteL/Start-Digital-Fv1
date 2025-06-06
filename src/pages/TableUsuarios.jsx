@@ -142,9 +142,9 @@ const TableUsuarios = () => {
                   <img src={burger} alt="" style={{ width: '30px', height: '30px' }} />
                 </button>
         <div className="py-8 ">
-          <div className="flex flex-row tabla justify-between w-full mb-1 sm:mb-0">
+          <div className="flex flex-row tabla justify-between w-full mb-1 sm:mb-2">
    
-            <h2 className="text-2xl leading-tight">Servicio de Comunity Manager</h2>
+            <h2 className="text-2xl leading-tight">Usuarios</h2>
             <div className="text-end">
               <form className="flex flex-col justify-center w-3/4 max-w-sm space-y-3 md:flex-row md:w-full md:space-x-3 md:space-y-0">
                 <div className="relative">

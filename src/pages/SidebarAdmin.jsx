@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const SidebarAdmin = ({ isOpen, toggleSidebar }) => {
   
   const cerrarSesion = () => {
-    localStorage.removeItem('userToken');
-    localStorage.removeItem('userRole'); // Eliminar el rol del localStorage
+    localStorage.removeItem('token');
+    localStorage.removeItem('role'); // Eliminar el rol del localStorage
     console.log(localStorage);
     window.location.reload();
   };

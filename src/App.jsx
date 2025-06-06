@@ -88,7 +88,12 @@ function App() {
       
       <Route path='//gestion/pagos' element={isAuth ? <TablePagosAdministrador/> : <Navigate to='/login'/>} />
       <Route path='/login' element={isAuth ? <Navigate to='/gestion/usuarios'/> : <Login/>}  />
+     {
+      /*
+
       <Route path='/gestion' element={isAuth ? <Gestion/> : <Navigate to='/login'/>} />
+      */
+     } 
       <Route path='/gestion/promociones-fotos' element={isAuth ? <TablePromocionesFotos/> : <Navigate to='/login'/>}  />
       <Route path='/gestion/servicios' element={isAuth ? <TableServiciosComunity/> : <Navigate to='/login'/>}  />
       <Route path='/gestion/usuarios' element={isAuth ? <TableUsuarios/> : <Navigate to='/login'/>}  />
