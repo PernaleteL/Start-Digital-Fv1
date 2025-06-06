@@ -299,7 +299,7 @@ function borrarTexto() {
             </div>
 
 
-            <div className="max-w-screen-xl px-12 py-8 mb-12 border border-gray-400 shadow-sm rounded-lg w-full" style={{background: '#f7f7f7'}}>
+            <div className="max-w-screen-xl px-12 py-8 mb-12 border border-gray-400 mt-4 mx-2 shadow-sm rounded-lg w-full" style={{background: '#f7f7f7'}}>
       <p className="text-gray-800 text-3xl font-semibold sm:text-4xl text-center" >
       Servicios Ofrecidos de Comunity Manager
 </p>
